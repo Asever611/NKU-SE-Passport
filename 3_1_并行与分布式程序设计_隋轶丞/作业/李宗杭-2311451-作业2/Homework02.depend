@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1762192028 source:d:\codeblocksproject\homework02\main.cpp
+	<iostream>
+	"matrix_multiply.h"
+	"gauss_elimination.h"
+
+1762189762 d:\codeblocksproject\homework02\matrix_multiply.h
+
+1762191851 source:d:\codeblocksproject\homework02\matrix_multiply.cpp
+	"matrix_multiply.h"
+	"utils.h"
+	<stdio.h>
+	<stdlib.h>
+	<pmmintrin.h>
+	<windows.h>
+
+1762191081 d:\codeblocksproject\homework02\gauss_elimination.h
+	<utility>
+
+1762191151 source:d:\codeblocksproject\homework02\utils.cpp
+	"utils.h"
+
+1762189768 d:\codeblocksproject\homework02\utils.h
+	<windows.h>
+
+1762191904 source:d:\codeblocksproject\homework02\gauss_elimination.cpp
+	"gauss_elimination.h"
+	"utils.h"
+	<stdio.h>
+	<stdlib.h>
+	<immintrin.h>
+	<windows.h>
+	<cmath>
+	<utility>
+

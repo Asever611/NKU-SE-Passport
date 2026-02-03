@@ -1,0 +1,5 @@
+{
+  "name": "8-Puzzle AI Solver",
+  "description": "An interactive 8-puzzle solver visualizing BFS, DFS, A* and Random Search algorithms with real-time statistics and smooth animations.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Homework04" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc-tdm-64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Homework04" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc-tdm-64" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Homework04" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc-tdm-64" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-finput-charset=UTF-8" />
+			<Add option="-fexec-charset=GBK" />
+			<Add option="-march=native" />
+		</Compiler>
+		<Unit filename="gauss_omp.cpp" />
+		<Unit filename="gauss_omp.h" />
+		<Unit filename="integral.cpp" />
+		<Unit filename="integral.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sort_omp.cpp" />
+		<Unit filename="sort_omp.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
