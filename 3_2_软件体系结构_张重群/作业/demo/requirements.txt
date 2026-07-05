@@ -1,0 +1,30 @@
+# 智能学习助手与知识管理多智能体系统 - 依赖清单
+# Python >= 3.10
+
+# Web框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+streamlit>=1.28.0
+
+# LLM & Agent 框架
+langchain>=0.1.0
+langchain-community>=0.1.0
+openai>=1.6.0          # 兼容 DeepSeek API
+
+# 向量数据库 & 嵌入
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# 文档解析
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+markdown>=3.5.0
+
+# 关系数据库
+aiosqlite>=0.19.0
+
+# 工具库
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+aiofiles>=23.0.0
+httpx>=0.25.0
